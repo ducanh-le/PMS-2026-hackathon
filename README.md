@@ -38,10 +38,13 @@ git remote add solutions git@github.com/me/A-team
 
 5. *When you find a new best solution*, copy it into the corresponding solution file and push into the corrsponding solution file, e.g., if this is a solution for `dataset/random_0005.csv`, copy it into `solutions/random_0005.json` and:
 
-> git commit -m "new solution" solutions/random_0005.json 
+>>>
 
-> git push main
+git commit -m "new solution" solutions/random_0005.json 
 
+git push main
+
+>>>
 
 
 ## Solving with Tempo
