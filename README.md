@@ -10,9 +10,14 @@ There are helpers scripts for the following toolkits:
 - [Python](https://gitlab.laas.fr/roc/hackathon-pms-2026-game-packing/-/blob/main/CPMpy/README.md) 
 - [Minizinc](https://gitlab.laas.fr/roc/hackathon-pms-2026-game-packing/-/blob/main/Minizinc/README.md)
 
-The solutions can be visualized using the Python library `blockviz`...
+## Prerequisites
+
+- Tempo: standard c++20, >= gcc-9 ou >= clang-17
+
+- Visualization: Python 3.12
 
 ## scripts  
+
 
 First install the parsing and visualization scripts (requires Python 3.12):
 
