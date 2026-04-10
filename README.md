@@ -6,9 +6,9 @@ The folder `dataset` contains 21 instance files. Each CSV file is a set of boxes
 
 You can solve the problem in any way you want, as long as you follow the [solution submission procedure](#submitting-solutions).
 There are helpers scripts for the following toolkits:
-- [Tempo](https://gitlab.laas.fr/roc/hackathon-pms-2026-game-packing/-/blob/main/Tempo/README.md?ref_type=heads) 
-- [Python](https://gitlab.laas.fr/roc/hackathon-pms-2026-game-packing/-/blob/main/CPMpy/README.md) 
-- [Minizinc](https://gitlab.laas.fr/roc/hackathon-pms-2026-game-packing/-/blob/main/Minizinc/README.md)
+- [Tempo](tempo/README.md)
+- [CPMpy](cpmpy/README.md) 
+- [Minizinc](minizinc/README.md)
 
 ## Prerequisites
 
@@ -16,12 +16,6 @@ There are helpers scripts for the following toolkits:
 
 - Visualization: Python 3.12
 
-## scripts  
-
-
-First install the parsing and visualization scripts (requires Python 3.12):
-
-> pip install git+https://gitlab.laas.fr/roc/titouan-seraud/pms.git
 
 ## Pipeline description
 TODO
@@ -114,6 +108,22 @@ pms-check-team
 Then send me an email with your team name and the URL of your repository at the following address [titouan.seraud@laas.fr](mailto:titouan.seraud@laas.fr?subject=PMS%20Hackathon%20Subscription&body=Team%20name:%20%0AURL:%20%0A).
 
 Once your registration has been processed, you will see your team on the [scoreboard](https://homepages.laas.fr/tseraud/pms.html). If your team does not appear in the scoreboard after a while, please contact the organizers.
+
+
+## Solution submitting
+To submit solutions, you just have to write them in [solutions](solutions), commit and push. Every solution file must follow the json format defined by `blockviz` and must contain only one line. As an example, try to submit the following solution for `homo_0005.csv`. 
+
+First, copy paste the following in [homo_0005.json](solutions/homo_0005.json).
+```json
+{"boxes": [{"position": [-147, -147, 0], "size": [295, 295, 75], "color": [197, 215, 20]}, {"position": [168, -147, 0], "size": [295, 295, 70], "color": [132, 248, 207]}, {"position": [483, -147, 0], "size": [295, 295, 75], "color": [155, 244, 183]}, {"position": [-147, 168, 0], "size": [295, 295, 75], "color": [155, 244, 144]}, {"position": [168, 168, 0], "size": [295, 295, 50], "color": [71, 48, 128]}], "text": "Tutorial solution\n"}
+```
+
+Then commit and push the file.
+```
+git add solutions/homo_0005.json
+git commit -m "Tutorial solution."
+git push
+```
 
 
 ## Useful links
