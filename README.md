@@ -11,14 +11,14 @@ There are helpers scripts for the following toolkits:
 - [Minizinc](minizinc/README.md)
 
 ## Prerequisites
-
-- Tempo: standard c++20, >= gcc-9 ou >= clang-17
-
-- Visualization: Python 3.12
+- Blockviz: python 3.12
+- Tempo: C++20 ie gcc-9, g++-13 or clang-17
+- MiniZinc: minizinc compiler
+- CPMpy: python 3.8
 
 
 ## Pipeline description
-TODO
+Your goal is to produce the best solutions before the end of the hackathon. No computation time is evaluated, we just compare the solutions you produce with your own system. You will submit your solutions in JSON format via a public git repository. Everything is explained in the following sections but if you are stuck on something, ask the organizers.
 
 
 ## Repository setup
@@ -124,6 +124,8 @@ git add solutions/homo_0005.json
 git commit -m "Tutorial solution."
 git push
 ```
+
+Remark: the mandatory things in your repository are `team.json` and `solutions` directory.
 
 
 ## Useful links
