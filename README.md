@@ -13,8 +13,28 @@ There are helpers scripts for the following toolkits:
 The solutions can be visualized using the Python library `blockviz`...
 
 
-## Setting up your team repository and submitting solutions
-First, fork this git repository, or create a new git repository with a copy of the file `team.json` and the entire folder `solutions`, and send the link to clone this repository at hebrard@laas.fr. For instance, you can follow these steps:
+## Setting up your repository
+Here is the procedure to setup your repository to submit solutions. It basically consists of copying this repository content to your new repository you will work on.
+1. Create a new empty git repository online. Important requirement: it must be **public**.
+2. Clone this repository.
+3. Enter the repository
+4. Remove the `.git` file.
+5. Initialize a new local git repository.
+6. Stage the current files.
+7. Create the initial commit.
+8. Push it on your repository.
+```
+git clone git@gitlab.laas.fr:roc/hackathon-pms-2026-game-packing.git
+cd hackathon-pms-2026-game-packing
+rm -rf .git
+git init
+git remote add origin git@github.com:user/myrepo.git
+git add .
+git commit -m "Initial commit."
+git push --set-upstream origin main
+```
+TODO: finish this
+
 
 1. Clone this repo
 
