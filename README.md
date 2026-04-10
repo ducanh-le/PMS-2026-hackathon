@@ -34,7 +34,7 @@ Here is the procedure to setup your repository to submit solutions. It basically
 Sign in and go to your GitHub home, then click *NEW*, choose *Import a repository*, then copy/paste https://gitlab.laas.fr/roc/hackathon-pms-2026-game-packing in the text box and import as a **public** repository (this may take a few minutes).
 
 ### GitLab import
-Sign in and go to your GitLab home. Click on *Projects* on the left pannel, then on *New project* and select *Import project*. Import from *Repository by URL* and copy/paste https://gitlab.laas.fr/roc/hackathon-pms-2026-game-packing.git in the text box. Finish to fill-in the form but make sure you select **Public** visibility.
+Sign in and go to your GitLab home. Click on *Projects* on the left pannel, then on *New project* and select *Import project*. Import from *Repository by URL* and copy/paste https://gitlab.laas.fr/roc/hackathon-pms-2026-game-packing.git in the text box. Make sure you select **Public** visibility and finish to fill out the form.
 
 ### Manual
 The procedure basically copy files from one repository to another. Here are the steps to follow, the commands are underneath.
@@ -92,8 +92,29 @@ Please follow the [official installation procedure](https://cpmpy.readthedocs.io
 ### Tempo
 TODO
 
-## Subscribing your team
-TODO
+## Team subscription
+Careful, this step is very important... you have to find a team name! Once your happy with one, fill out your [team.json](team.json) file.
+```json
+{
+    "name": "Dalton Gang",
+    "members": [
+        "Joe",
+        "Jack",
+        "William",
+        "Averell"
+    ]
+}
+```
+
+Check the file is valid with the following command.
+```
+pms-check-team
+```
+
+Then send me an email with your team name and the URL of your repository at the following address [titouan.seraud@laas.fr](mailto:titouan.seraud@laas.fr?subject=PMS%20Hackathon%20Subscription&body=Team%20name:%20%0AURL:%20%0A).
+
+Once your registration has been processed, you will see your team on the [scoreboard](https://homepages.laas.fr/tseraud/pms.html). If your team does not appear in the scoreboard after a while, please contact the organizers.
+
 
 ## Useful links
 TODO
