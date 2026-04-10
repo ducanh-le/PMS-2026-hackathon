@@ -16,6 +16,6 @@ This program implements helpers to read the instances, print the solutions, and 
 
 You can use this executable as basis for you solution.
 
-The [Quickstart guide](#https://gitlab.laas.fr/roc/emmanuel-hebrard/tempo/-/edit/main/documentation/QUICKSTART.md?ref_type=heads) should help you.
+Tempo's [Quickstart guide](#https://gitlab.laas.fr/roc/emmanuel-hebrard/tempo/-/edit/main/documentation/QUICKSTART.md?ref_type=heads) should help you.
 
 
