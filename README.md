@@ -6,7 +6,7 @@ The folder `dataset` contains 21 instance files. Each CSV file is a set of boxes
 
 You can solve the problem in any way you want, as long as you follow the [solution submission procedure](#submitting-solutions).
 There are helpers scripts for the following toolkits:
-- [Tempo (recommended)](#https://gitlab.laas.fr/roc/hackathon-pms-2026-game-packing/-/blob/main/Tempo/README.md?ref_type=heads) 
+- [Tempo (recommended)](https://gitlab.laas.fr/roc/hackathon-pms-2026-game-packing/-/blob/main/Tempo/README.md?ref_type=heads) 
 - [Python](#solving-with-cpmpy-(or-other-python-toolkits)) 
 - [Minizinc](#solving-with-minizinc)
 
