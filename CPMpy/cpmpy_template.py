@@ -141,7 +141,7 @@ class CPMpyModel:
                                     "color" : box_var.color.tolist()})
             
         with open(path, "w") as f:
-            json.dump(convert_solution_to_json(scene), f)
+            f.write(convert_solution_to_json(scene))
 
         
     
