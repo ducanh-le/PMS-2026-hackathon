@@ -1,20 +1,20 @@
 % Starter MiniZinc model for the 3D packing exercise.
 
 % Data provided by the .dzn instance.
-% n is the number of boxes.
-int: n;
-% len[i], dep[i], and hei[i] are the dimensions of box i.
-array[1..n] of int: len;
-array[1..n] of int: dep;
-array[1..n] of int: hei;
+% N is the number of boxes.
+int: N;
+% lengths[i], depths[i], and heights[i] are the dimensions of box i.
+array[1..N] of int: lengths;
+array[1..N] of int: depths;
+array[1..N] of int: heights;
 
 
 
 % Decision variables: (x[i], y[i], z[i]) is the position of one corner of box i.
 % Replace `var` with explicit integer domains.
-array[1..n] of var int: x;
-array[1..n] of var int: y;
-array[1..n] of var int: z;
+array[1..N] of var int: x;
+array[1..N] of var int: y;
+array[1..N] of var int: z;
 
 % X, Y, and Z are the dimensions of the enclosing container.
 % Give them meaningful lower and upper bounds.
@@ -49,5 +49,5 @@ output
   ": x=" ++ show(x[i]) ++
   " y=" ++ show(y[i]) ++
   " z=" ++ show(z[i]) ++ "\n"
-  | i in 1..n
+  | i in 1..N
 ];
