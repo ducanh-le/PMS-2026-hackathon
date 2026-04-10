@@ -38,7 +38,9 @@ The solve function is compatible with `blockviz` but it only works with the ORTo
 
 Feel free to personalize your CPMpyModel class if you want to.
 
-Some usefull documentation :
+## Useful links
+
+Some useful documentation :
 - The getting started CPMpy documentation : https://cpmpy.readthedocs.io/en/latest/modeling.html
-- A quite complete tutorial on ORTools solver (expecially usefull if you wish to optimize solver parameters or use ORTools logs): https://d-krupke.github.io/cpsat-primer/05_parameters.html
+- A quite complete tutorial on ORTools solver (expecially useful if you wish to optimize solver parameters or use ORTools logs): https://d-krupke.github.io/cpsat-primer/05_parameters.html
 
