@@ -84,13 +84,13 @@ Please follow the [official installation procedure](https://docs.minizinc.dev/en
 Please follow the [official installation procedure](https://cpmpy.readthedocs.io/en/latest/installation_instructions.html).
 
 ### Tempo
-TODO
+Please follow the [installation procedure](https://gitlab.laas.fr/roc/hackathon-pms-2026-game-packing/-/blob/main/tempo/README.md).
 
 ## Team subscription
-Careful, this step is very important... you have to find a team name! Once your happy with one, fill out your [team.json](team.json) file.
+Careful, this step is very important: you have to find a team name! Once you have found one, fill out the [team.json](team.json) file.
 ```json
 {
-    "name": "Dalton Gang",
+    "name": "Dalton Brothers",
     "members": [
         "Joe",
         "Jack",
@@ -110,7 +110,8 @@ Then send me an email with your team name and the URL of your repository at the 
 Once your registration has been processed, you will see your team on the [scoreboard](https://homepages.laas.fr/tseraud/pms.html). If your team does not appear in the scoreboard after a while, please contact the organizers.
 
 
-## Solution submitting
+## Submitting Solutions
+
 To submit solutions, you just have to write them in [solutions](solutions), commit and push. Every solution file must follow the json format defined by `blockviz` and must contain only one line. As an example, try to submit the following solution for `homo_0005.csv`. 
 
 First, copy paste the following in [homo_0005.json](solutions/homo_0005.json).
