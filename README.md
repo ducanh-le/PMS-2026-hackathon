@@ -119,7 +119,7 @@ First, copy paste the following in [homo_0005.json](solutions/homo_0005.json).
 {"boxes": [{"position": [-147, -147, 0], "size": [295, 295, 75], "color": [197, 215, 20]}, {"position": [168, -147, 0], "size": [295, 295, 70], "color": [132, 248, 207]}, {"position": [483, -147, 0], "size": [295, 295, 75], "color": [155, 244, 183]}, {"position": [-147, 168, 0], "size": [295, 295, 75], "color": [155, 244, 144]}, {"position": [168, 168, 0], "size": [295, 295, 50], "color": [71, 48, 128]}], "text": "Tutorial solution\n"}
 ```
 
-Then commit and push the file.
+Then stage, commit and push the file.
 ```
 git add solutions/homo_0005.json
 git commit -m "Tutorial solution."
@@ -130,4 +130,10 @@ Remark: the mandatory things in your repository are `team.json` and `solutions` 
 
 
 ## Useful links
-TODO
+- [PMS 2026 website](https://pms2026.sciencesconf.org)
+- [Hackathon scoreboard](https://homepages.laas.fr/tseraud/pms.html)
+- [Blockviz repository](https://gitlab.laas.fr/roc/titouan-seraud/blockviz)
+- [PMS hackathon repository](https://gitlab.laas.fr/roc/hackathon-pms-2026-game-packing)
+- [PMS repository](https://gitlab.laas.fr/roc/titouan-seraud/pms)
+- [Tempo repository](https://gitlab.laas.fr/roc/emmanuel-hebrard/tempo)
+- [Git cheat sheet](https://git-scm.com/cheat-sheet)
