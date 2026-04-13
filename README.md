@@ -10,6 +10,19 @@ There are helpers scripts for the following toolkits:
 - [CPMpy](cpmpy/README.md) 
 - [Minizinc](minizinc/README.md)
 
+<details>
+<summary><b>Table of contents</b></summary>
+
+- [Prerequesites](#prerequesites)
+- [Pipeline description](#oipeline-description)
+- [Repository setup](#repository-setup)
+- [Installation](#installation)
+- [Team subscription](#team-subscription)
+- [Submitting solutions](#submitting-solutions)
+- [Useful links](#useful-links)
+</details>
+
+
 ## Prerequisites
 - Blockviz: python 3.12
 - Tempo: C++20 ie gcc-9, g++-13 or clang-17
@@ -84,13 +97,13 @@ Please follow the [official installation procedure](https://docs.minizinc.dev/en
 Please follow the [official installation procedure](https://cpmpy.readthedocs.io/en/latest/installation_instructions.html).
 
 ### Tempo
-Please follow the [installation procedure](https://gitlab.laas.fr/roc/hackathon-pms-2026-game-packing/-/blob/main/tempo/README.md).
+Please follow the [installation procedure](tempo/README.md).
 
 ## Team subscription
 Careful, this step is very important: you have to find a team name! Once you have found one, fill out the [team.json](team.json) file.
 ```json
 {
-    "name": "Dalton Brothers",
+    "name": "Dalton Gang",
     "members": [
         "Joe",
         "Jack",
@@ -110,7 +123,7 @@ Then send me an email with your team name and the URL of your repository at the 
 Once your registration has been processed, you will see your team on the [scoreboard](https://homepages.laas.fr/tseraud/pms.html). If your team does not appear in the scoreboard after a while, please contact the organizers.
 
 
-## Submitting Solutions
+## Submitting solutions
 
 To submit solutions, you just have to write them in [solutions](solutions), commit and push. Every solution file must follow the json format defined by `blockviz` and must contain only one line. As an example, try to submit the following solution for `homo_0005.csv`. 
 
