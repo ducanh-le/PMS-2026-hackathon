@@ -18,6 +18,7 @@ There are helpers scripts for the following toolkits:
 - [Repository setup](#repository-setup)
 - [Installation](#installation)
 - [Team subscription](#team-subscription)
+- [Visualizing solutions](#visualizing-solutions)
 - [Submitting solutions](#submitting-solutions)
 - [Useful links](#useful-links)
 </details>
@@ -123,6 +124,30 @@ pms-check-team
 Then send me an email with your team name and the URL of your repository at the following address [titouan.seraud@laas.fr](mailto:titouan.seraud@laas.fr?subject=PMS%20Hackathon%20Subscription&body=Team%20name:%20%0AURL:%20%0A).
 
 Once your registration has been processed, you will see your team on the [scoreboard](https://homepages.laas.fr/tseraud/pms.html). If your team does not appear in the scoreboard after a while, please contact the organizers.
+
+
+## Visualizing solutions
+You can use `blockviz` to visualize the solutions you produce. There are two main ways to use it: real-time or step-by-step. Regardless of the chosen option, blockviz expects exactly one solution per line. You can check the expected format with the mock.
+```
+blockviz-mock --num-boxes 3 --num-scenes 5
+```
+
+To visualize the solutions in real-time, just pipe the ouput of your solver in `blockviz`. Replace `blockviz-mock` by your solver.
+```
+blockviz-mock | blockviz
+```
+
+Otherwise, if you want to visualize saved solutions just call `blockviz` on your file.
+```
+blockviz-mock --num-scenes 5 > solutions.json
+blockviz solutions.json
+```
+
+Remark: if you have parsing errors, have a look at `--permissive-io` option.
+
+Use the json `text` field as you want. For example, you can write debug information, current run time, solution count...
+
+More information on [blockviz repository](https://gitlab.laas.fr/roc/titouan-seraud/blockviz).
 
 
 ## Submitting solutions
