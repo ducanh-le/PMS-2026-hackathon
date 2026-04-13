@@ -14,7 +14,7 @@ There are helpers scripts for the following toolkits:
 <summary><b>Table of contents</b></summary>
 
 - [Prerequesites](#prerequesites)
-- [Pipeline description](#oipeline-description)
+- [Pipeline description](#pipeline-description)
 - [Repository setup](#repository-setup)
 - [Installation](#installation)
 - [Team subscription](#team-subscription)
@@ -32,6 +32,8 @@ There are helpers scripts for the following toolkits:
 
 ## Pipeline description
 Your goal is to produce the best solutions before the end of the hackathon. No computation time is evaluated, we just compare the solutions you produce with your own system. You will submit your solutions in JSON format via a public git repository. Everything is explained in the following sections but if you are stuck on something, ask the organizers.
+
+<img src="doc/pipeline.png" height="400" alt="pipeline schema"/>
 
 
 ## Repository setup
